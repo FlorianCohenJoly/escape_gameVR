@@ -1,6 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Content.Interaction;
 
 public class LevierGestionnaire : MonoBehaviour
 {
@@ -33,7 +33,7 @@ public class LevierGestionnaire : MonoBehaviour
     }
 
     public IEnumerator Rotating(){
-        yield return new WaitFroSeconds(0.5f);
+        yield return new WaitForSeconds(0.5f);
         canRotate = true;
     }
 }
