@@ -8,7 +8,7 @@ public class comptabiliseObject : MonoBehaviour
 
 
     public void OnTriggerEnter(Collider other){
-        if(other.CompareTag("item1") && !manager.egyptObject){
+        if(other.CompareTag("Item1") && !manager.egyptObject){
             Debug.LogWarning("objet egypte trouvé");
             manager.egyptObject = true;
             manager.IncrementObject();

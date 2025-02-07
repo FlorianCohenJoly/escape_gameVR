@@ -3680,16 +3680,46 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e4149755fc1d98a498388cedff353ea8, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1140882237464905622, guid: a9ed6b7f141a2834db346e27a35a95ab, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4972667327234157481, guid: a9ed6b7f141a2834db346e27a35a95ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 98090552}
   m_SourcePrefab: {fileID: 100100000, guid: a9ed6b7f141a2834db346e27a35a95ab, type: 3}
 --- !u!4 &98090550 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1570064009653524749, guid: a9ed6b7f141a2834db346e27a35a95ab, type: 3}
   m_PrefabInstance: {fileID: 98090549}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &98090551 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4972667327234157481, guid: a9ed6b7f141a2834db346e27a35a95ab, type: 3}
+  m_PrefabInstance: {fileID: 98090549}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &98090552
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98090551}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 2.220446e-16, z: 10.000001}
+  m_Center: {x: 0, y: 0, z: -0.00000011920929}
 --- !u!1001 &99286341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37848,7 +37878,7 @@ Transform:
   m_GameObject: {fileID: 1051774745}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -54.856, y: 0, z: 1.071}
+  m_LocalPosition: {x: 0, y: 0, z: -3.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -78588,7 +78618,3 @@ SceneRoots:
   - {fileID: 893174851}
   - {fileID: 1470385199}
   - {fileID: 1182904117}
-  - {fileID: 22701647}
-  - {fileID: 28172225}
-  - {fileID: 893174851}
-  - {fileID: 1470385199}
