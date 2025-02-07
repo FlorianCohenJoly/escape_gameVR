@@ -6,6 +6,13 @@ TagManager:
   tags:
   - Foods
   - Hammer
+  - Parchemin
+  - win
+  - Flame
+  - Projectile
+  - Water
+  - Destroyer
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
